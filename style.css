@@ -1,0 +1,43 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 20px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 420px) {
+    .logo {
+        display: none;
+    }
+}
+
+.main-text-container {
+    max-width: 620px;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.promocode {
+    display: block;
+    margin-top: 30px;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: normal;
+}
